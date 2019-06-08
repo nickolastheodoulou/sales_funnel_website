@@ -1,0 +1,43 @@
+.button {
+    background: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
+
+.button:hover {
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+
+}
+
+.homepage-signup-email {
+    padding: 3px 0px 3px 18px;
+    border-radius: 4px 0 0 4px;
+    height: 40px;
+    width: 279px;
+    font-size: 16px;
+    border: 1px solid;
+    vertical-align: middle;
+}
+
+.homepage-signup-submit {
+    margin: 0;
+    border-radius: 0px 4px 4px 0px;
+    padding: 2px 0;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+    width: 175px;
+    cursor: pointer;
+    color: white;
+    background-color: #B22222;
+    text-transform: none;
+    font-weight: 600;
+}

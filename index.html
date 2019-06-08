@@ -1,5 +1,6 @@
 <html>
 <head>
+    <link rel="stylesheet" href="css/main.css" />
     <!-- Not good practice! You should load jQuery at the end of the document. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -10,12 +11,17 @@
 
 </div>
 
-<h1>Please Enter your details</h1>
-<form>
-    <label for="msg">Email Address</label>
-    <textarea id="msg"></textarea>
 
-    <button id='submitButton'>Submit</button>
+
+<form>
+    <textarea rows="1" placeholder="Email Address..." id="msg"></textarea>
+
+    <button class="button" id='submitButton'>Sign Me Up!</button>
+</form>
+
+<form>
+<input type="text" id="signup-input" class="homepage-signup-email" placeholder="Enter your email address" maxlength="80">
+    <button type="submit" id="signup-submit-button" class="homepage-signup-submit homepage-sign-up-btn sign-dark-btn"> SIGN ME UP</button>
 </form>
 
 <!-- Load Stripe.js on your website. -->

@@ -19,17 +19,18 @@
 
 .homepage-signup-email {
     padding: 3px 0px 3px 18px;
-    border-radius: 4px 0 0 4px;
+    border-radius: 6px 0 0 6px;
     height: 40px;
     width: 279px;
     font-size: 16px;
-    border: 1px solid;
+    border: 2px solid;
     vertical-align: middle;
+    margin: 0;
 }
 
 .homepage-signup-submit {
     margin: 0;
-    border-radius: 0px 4px 4px 0px;
+    border-radius: 0px 6px 6px 0px;
     padding: 2px 0;
     text-align: center;
     height: 40px;
@@ -40,4 +41,6 @@
     background-color: #B22222;
     text-transform: none;
     font-weight: 600;
+    border: 2px solid;
+    border-color: black;
 }
